@@ -6,7 +6,12 @@ int main(){
     int cnt=0;
     int i;
     int ran;
-    
+    char str[10];
+
+    printf("Who are you?\n");
+    scanf("%s",str);
+    printf("Hello, %s!\n",str);
+
     srand((int)time(NULL));
     printf("Tosiing a coin...\n");
     for(i=0;i<3;i++){
