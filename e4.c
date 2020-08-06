@@ -24,7 +24,7 @@ int main(){
         else if(ran==1) printf("Tails\n");
     }
     printf("Heads: %d, Tails: %d\n",cnt,3-cnt);
-    if(cnt>=2) printf("You won.\n");
-    else printf("You lose.\n");
+    if(cnt>=2) printf("%s won.\n",str);
+    else printf("%s lose.\n",str);
     return 0;
 }
